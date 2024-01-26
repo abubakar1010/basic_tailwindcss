@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TailwindCss First Project </title>
+</head>
+
+<body class="bg-slate-950">
+    <!-- navbar goes here -->
+
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 py-4 items-center">
+        <div class="font-black text-xl text-pink-600">Masmak Shop</div>
+
+        <ul class="md:flex md:gap-12 hidden font-semibold">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">Services</li>
+            <li class="cursor-pointer">Projects</li>
+            <li class="cursor-pointer">Contact</li>
+        </ul>
+
+        <div class="hidden md:block bg-pink-600 font-bold text-white px-3 py-2 rounded  ">Login/SignUp</div>
+
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- image section starts here -->
+    <header class="w-full h-auto md:h-96 object-cover">
+
+        <img class="object-cover w-full md:hidden h-full" src="../assets/man-with-pc.jpg"  alt="">
+        <img class="object-cover w-full hidden md:block h-full" src="../assets/man-with-pc.jpg" alt="">
+    </header>
+
+    <!-- image section ends here --->
+
+    <!-- our students section here -->
+
+    <div class="w-full h-auto flex flex-col ">
+        <p class="text-pink-400 text-2xl font-semibold mt-8 mb-3 mx-auto w-62 uppercase">"Pure hard work, no shortcuts!" </p>
+        <div class="border-b-4 border-pink-800 w-28 mb-5 rounded-3xl mx-auto "></div>
+    </div>
+
+    <div class="flex justify-evenly my-8 text-center">
+        
+        <div>
+            <img class="w-56 h-32 rounded-s-full mb-5" src="../assets/AdobeStock_646947985_Preview.jpeg" alt="">
+            <p class="text-3xl font-bold text-white">600+</p>
+            <p class="text-3xl font-bold text-gray-500">Different Items</p>
+        </div>
+        <div>
+            <img class="w-56 h-32 rounded-s-full mb-5" src="../assets/AdobeStock_683669216_Preview.jpeg" alt="">
+            <p class="text-3xl font-bold text-white">600+</p>
+            <p class="text-3xl font-bold text-gray-500">Different Items</p>
+        </div>
+        <div class="">
+            <img class="w-56 h-32 rounded-s-full mb-5" src="../assets/AdobeStock_653911358_Preview.jpeg" alt="">
+            <p class="text-3xl font-bold text-white ">600+</p>
+            <p class="text-3xl font-bold text-gray-500 ">Different Items</p>
+        </div>
+    </div>
+</body>
+
+</html>
